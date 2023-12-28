@@ -10,14 +10,14 @@ class Rectangle {
 	get getHeight(height){
 		return this.height;
 	}
-	get getPerimeter(width, height){
+	getArea(){
 		return (this.width)*(this.height);
 	}
 }
 
 class Square extends Rectangle {
 	constructor(width){
-		super (width,width);
+		super(width,width);
 	}
 	getPerimeter(){
 		return 4*(this.width);
